@@ -9,7 +9,10 @@
                  [ch.qos.logback/logback-classic "1.2.3" :exclusions [org.slf4j/slf4j-api]]
                  [juxt/crux-core "derived-from-git"]
                  [juxt/crux-http-server "derived-from-git"]
-                 [juxt/crux-test "derived-from-git" :scope "test" :exclusions [commons-codec]]]
+                 [juxt/crux-test "derived-from-git" :scope "test" :exclusions [commons-codec]]
+
+                 ;; Dependency Resolution:
+                 [javax.servlet/javax.servlet-api "4.0.1"]]
 
   :middleware [leiningen.project-version/middleware]
   :aot [crux.main]
