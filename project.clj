@@ -6,7 +6,7 @@
    "crux-jdbc"
    "crux-http-client" "crux-http-server"
    "crux-kafka-embedded" "crux-kafka-connect" "crux-kafka"
-   "crux-calcite"
+   "crux-sql"
    "crux-test"
    "crux-s3"
    "crux-cli"
@@ -34,7 +34,7 @@
    [juxt/crux-metrics "derived-from-git"]
    [juxt/crux-http-server "derived-from-git" :exclusions [commons-codec]]
    [juxt/crux-rdf "derived-from-git"]
-   [juxt/crux-calcite "derived-from-git"]
+   [juxt/crux-sql "derived-from-git"]
    [juxt/crux-test "derived-from-git"]
    [juxt/crux-bench "derived-from-git" :exclusions [org.apache.commons/commons-lang3]]
    [juxt/crux-cli "derived-from-git"]
